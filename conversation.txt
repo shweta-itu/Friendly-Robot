@@ -1,0 +1,58 @@
+Human: hi (100%)
+Robot: hello
+Human: hi (100%)
+Robot: hi   ! ! !
+Human: hay (100%)
+Robot: I don't know that
+Human: hey (100%)
+Robot: hey there
+Human: what is my name (100%)
+Robot: I don't know your name
+Human: what is your name (100%)
+Robot: My name is Robo. What is your name   ?
+Human: my name is richard (100%)
+Robot: richard is a sweet name
+Human: what is my name (100%)
+Robot: your name is richard
+Human: how are you (100%)
+Robot: I am doing good how are you  ?
+Human: i am tired (100%)
+Robot: oh do you want some tea  ?
+Human: no (100%)
+Robot: okay , do you want some coffee  ?
+Human: no (100%)
+Robot: okay , maybe you should just take a nap  .
+Human: let us talk about animals (100%)
+Robot: do you have a cat or a dog  ?
+Human: dog (100%)
+Robot: is it a big dog  ?
+Human: yes (100%)
+Robot: make sure he has enough space to run
+Human: let us talk about animals (100%)
+Robot: do you have a cat or a dog  ?
+Human: cat (100%)
+Robot: do you live in the countryside  ?
+Human: no (100%)
+Robot: i hope your house is big enough
+Human: relax (100%)
+Robot: Ok , I am relaxing now
+Human: what is your name (100%)
+Robot: My name is Robo. What is your name   ?
+Human: weak up (100%)
+Robot: I do not understand that
+Human: wakeup (100%)
+Robot: Ok , I am getting up now
+Human: abcdsfgdcgg (100%)
+Robot: I don't know what to respond
+Human: dgdg (100%)
+Robot: I don't know that
+Human: jnjhgjjh (100%)
+Robot: I do not understand that
+Human: ghgbhhg (100%)
+Robot: I don't know what to respond
+Human: hjhgbjj (100%)
+Robot: I don't know that
+Human: hjjhgb (100%)
+Robot: I do not understand that
+Human: hj (100%)
+Robot: I don't know what to respond

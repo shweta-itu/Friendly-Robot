@@ -1,0 +1,49 @@
+topic: ~example()
+language: enu
+concept:(food) [fruits chicken beef eggs]
+
+u: ([Hi hi hello Hello hey Hey]) ^rand["hello" "hey there"  "hi!!!"] 
+
+u: (["Good evening" "good evening"]) Good evening!
+u: (what is my name) ^first["your name is $name" "I don't know your name"]
+u: (What is your name?) My name is Robo. What is your name ?
+u: (My name is _*) $1 is a good name $name=$1
+u: (what is my name?) ^first["your name is $name" "I don't know your name"]
+
+u: (how are you {today}{?}) I am doing good ^nextProposal
+
+proposal: how are you?
+  u1:(I am fine) cool!
+  u1:(I am exhausted) oh ^nextProposal
+  
+proposal: do you want some green tea now?
+   u1:(yes) I'm bringing you hot tea now!.
+   u1:(no) oh okay, ^nextProposal
+
+proposal: do you want cold coffee?
+   u1:(yes) I'm bringing you a nice cold coffee with some snacks.
+   u1:(no) okay, maybe you should just take a nap now.
+   u1:(can you repeat what you asked just now, please) Ok I will repeat. ^sameProposal
+
+u:({"let us"} talk about some pet animals) do you like cat or dog?
+   u1:(dog) I like dog. Do you like small dog?
+     u2:(yes) so cute, make sure you enjoy your time with him in your apartment
+     u2:(no) make sure you own a big space, before you have one dog
+   u1:(cat) does you cat always stay inside the apartment ?
+     u2:(yes) great! it it so cute. Do you take him outside?
+        u3:(yes) So cute !
+     u2:(no) i can imagine you having a touch time finding your cat
+   u1:(none) neither do I   
+      
+
+
+u:(_*) ^rand["I don't know that" "I do not understand that" "I don’t know what to respond"]
+
+u: (relax) ^pCall(ALMotion.rest()) Ok, I am relaxing now
+u: (wake up) ^pCall(ALMotion.wakeUp()) Ok, I am getting up now
+
+
+
+
+
+
